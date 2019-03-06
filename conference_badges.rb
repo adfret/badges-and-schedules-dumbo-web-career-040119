@@ -14,7 +14,7 @@ end
 
 def assign_rooms(arr)
 arrs = []
-b = 0
+b = 1
     rng = (1..7)
       arr.each do |i|
       arrs << "Hello, #{i}! You'll be assigned to room #{b}!"
