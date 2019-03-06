@@ -18,4 +18,5 @@ arrs = []
       arr.each do |i|
       arrs << "Hello #{i}! You'll be assigned to room #{rng.to_a.sample()}!"
       end
+      arrs
 end
