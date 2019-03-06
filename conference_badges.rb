@@ -29,12 +29,12 @@ def badge_maker(name)
 end
 
 
-def printer
-batch_badge_creator.each do |i|
+def printer(att)
+batch_badge_creator(att).each do |i|
   puts i
 end
 
-assign_rooms.each do |i|
+assign_rooms(att).each do |i|
   puts i
 end
 
