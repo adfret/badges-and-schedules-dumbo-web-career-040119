@@ -9,4 +9,5 @@ def batch_badge_creator(arr)
     arrs << "Hello, my name is #{arr[i]}"
     i+=1
   end
+  arrs
 end
