@@ -11,3 +11,8 @@ def batch_badge_creator(arr)
   end
   arrs
 end
+
+def assign_rooms(arr)
+  arrs = []
+arr.each do |i| 
+  
