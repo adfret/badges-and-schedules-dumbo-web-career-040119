@@ -22,3 +22,8 @@ b = 1
       end
       arrs
 end
+
+
+def badge_maker(name)
+  puts "Hello, my name is #{name}."
+end 
